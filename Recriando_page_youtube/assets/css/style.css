@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    background-color: white;
+    margin: auto;
+    width: 1440px;
+    font-family: Roboto;
+}
+
+
+/* CONFIGURAÇÕES CSS HEADER */
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    align-items: center;
+    
+}
+
+#header-item-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 130px;
+    height: 30px;
+    gap:24px;
+}
+
+.header-icon-buttom:hover{
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+#header-item-2 input{
+    width: 400px;
+    height: 25px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+
+}
+
+#header-item-3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    gap:24px;
+
+}
+
+.header-icon-youtube{
+    margin-left: 20px;
+}
+
+.image-user{
+    width: 34px;
+    height: 34px;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    background-image: url('../image/image-user.jpg');
+
+}
+
+
+/* CONFIGURAÇÕES CSS MAIN */
+
+.content-main{
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 20px;
+   
+}
+
+.content-section-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 745px;
+    
+}
+
+.content-video{
+    width: 952Px;
+    height: 540px;
+}
+
+.description-video{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.content-video-action{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+
+}
+
+#action-subscribers{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#number-subscribers{
+    width: 130px;
+    
+}
+
+#action-subscribe button{
+    background: #CC0000;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border-radius: 2px;
+}
+
+#action-like{
+    width: 100px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+#action-dislike{
+    width: 150px;
+    font-weight: 600;
+}
+
+#action-share{
+    width: 130px;
+    margin-left: -30px;
+    font-weight: 600;
+}
+
+#action-download{
+    width: 130px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.description-date-views{
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.description-content-video{
+    width: 520px;
+    font-size: 0.9rem;
+}
+
+.content-nav-lateral{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    gap: 10px;
+
+}
+
+.nav-item-1{
+    display: flex;
+    height: 90px;
+    gap: 10px;
+
+}
+
+.nav-item-1A{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between; 
+    width: 150px;
+}
+
+.nav-item-2{
+    display: flex;
+    height: 90px;
+    gap: 10px;
+
+}
+
+.nav-item-2A{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between; 
+    width: 150px;
+}
+
+.nav-item-3{
+    display: flex;
+    height: 90px;
+    gap: 10px;
+
+}
+
+.nav-item-3A{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between; 
+    width: 150px;
+}
+
+.nav-item-4{
+    display: flex;
+    height: 90px;
+    gap: 10px;
+
+}
+
+.nav-item-4A{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between; 
+    width: 150px;
+}
+
+.nav-item-5{
+    display: flex;
+    height: 90px;
+    gap: 10px;
+
+}
+
+.nav-item-5A{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between; 
+    width: 150px;
+}
+
+.nav-item-6{
+    display: flex;
+    height: 90px;
+    gap: 10px;
+
+}
+
+.nav-item-6A{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between; 
+    width: 150px;
+}
+
+.nav-item-7{
+    display: flex;
+    height: 90px;
+    gap: 10px;
+
+}
+
+.nav-item-7A{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between; 
+    width: 150px;
+}
+
+.nav-item-8{
+    display: flex;
+    height: 90px;
+    gap: 10px;
+
+}
+
+.nav-item-8A{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between; 
+    width: 150px;
+}
